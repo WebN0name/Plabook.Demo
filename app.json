@@ -8,7 +8,7 @@
       "web"
     ],
     "version": "1.0.0",
-    "orientation": "portrait",
+    "orientation": "landscape",
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
@@ -22,7 +22,13 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ts.Plabook",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.ts.Plabook",
+      "versionCode": 1
     }
   }
 }
